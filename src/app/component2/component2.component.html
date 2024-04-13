@@ -1,0 +1,13 @@
+<!-- <input type="text" [(ngModel)]="item" name="item" />
+<button (click)="update()">Add</button>
+
+<button (click)="hideInput()">Hide</button> -->
+
+<select (change)="dropdownValue($event)" name="" id="" [(ngModel)]="item">
+    <option [ngClass]="dataArray?.includes('banana')?'blue':'red'" value="banana">Banana</option>
+    <option [ngClass]="dataArray?.includes('mango')?'blue':'red'" value="mango">mango</option>
+    <option [ngClass]="dataArray?.includes('kela')?'blue':'red'" value="kela">kela</option>
+    <option [ngClass]="dataArray?.includes('lega')?'blue':'red'" value="lega">lega</option>
+</select>
+
+<!-- <button (click)="update()">Add</button> -->

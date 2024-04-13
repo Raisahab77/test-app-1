@@ -1,0 +1,15 @@
+<!-- header.component.html -->
+
+<div class="header">
+    <div class="logo">Your Logo</div>
+    <div class="user-info">
+      <ng-container *ngIf="isLoggedIn(); else loginTemplate">
+        <span>Welcome, {{ getUsername() }}</span>
+        <button (click)="logout()">Logout</button>
+      </ng-container>
+      <ng-template #loginTemplate>
+        <button>Login</button>
+      </ng-template>
+    </div>
+  </div>
+  

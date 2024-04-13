@@ -1,0 +1,5 @@
+<input [hidden]="isInput" type="text" [(ngModel)]="item" name="item" />
+<button (click)="update()">Add</button>
+
+
+<p *ngFor="let element of dataArray">{{element}} <button (click)="delete(element)">Delete</button></p>
