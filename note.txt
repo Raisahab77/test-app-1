@@ -1,0 +1,10 @@
+Component 1 and component 2 are two component. 
+
+I have a data varaible in my service which is an array of objects. I want to display the array data in my component 1. 
+
+In component 2 I have create a select input field. On select of a value I am adding value in array.
+I can delete value by clicking on delete button of component 1.
+
+I am highlighting all values which are presented in array and my select input field.
+
+When a value which already present in array and select input field I can Delete it by clicking it again.
